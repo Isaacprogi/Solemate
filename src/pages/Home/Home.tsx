@@ -31,7 +31,7 @@ export default function Home() {
   const [showCart, setShowCart] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
   const [selectedShoe, setSelectedShoe] = useState<Shoe | null>(null);
-  const [showMobileMenu, setShowMobileMenu] = useState(false);
+  const [_, setShowMobileMenu] = useState(false);
 
   useEffect(() => {
     let filtered = shoes;
