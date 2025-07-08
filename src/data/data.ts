@@ -1,0 +1,91 @@
+import type { Shoe } from "../utils/type";
+
+export const shoes: Shoe[] = [
+  {
+    id: 1,
+    name: "Air Max Revolution",
+    brand: "Nike",
+    price: 129.99,
+    originalPrice: 159.99,
+    image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=300&fit=crop",
+    category: "Running",
+    rating: 4.8,
+    reviews: 156,
+    colors: ["Black", "White", "Red"],
+    sizes: ["7", "8", "9", "10", "11", "12"],
+    description: "Revolutionary comfort meets iconic style in these premium running shoes.",
+    features: ["Air Max cushioning", "Breathable mesh upper", "Durable rubber outsole"]
+  },
+  {
+    id: 2,
+    name: "Urban Walker",
+    brand: "Adidas",
+    price: 89.99,
+    image: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=300&fit=crop",
+    category: "Casual",
+    rating: 4.6,
+    reviews: 89,
+    colors: ["Navy", "Gray", "Brown"],
+    sizes: ["7", "8", "9", "10", "11"],
+    description: "Perfect for everyday wear with premium comfort and style.",
+    features: ["Memory foam insole", "Leather upper", "Non-slip sole"]
+  },
+  {
+    id: 3,
+    name: "Court Master",
+    brand: "Puma",
+    price: 95.99,
+    originalPrice: 119.99,
+    image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=300&fit=crop",
+    category: "Tennis",
+    rating: 4.7,
+    reviews: 203,
+    colors: ["White", "Black", "Blue"],
+    sizes: ["6", "7", "8", "9", "10", "11", "12"],
+    description: "Professional-grade tennis shoes for peak performance on the court.",
+    features: ["Court-specific outsole", "Reinforced toe", "Lightweight design"]
+  },
+  {
+    id: 4,
+    name: "Trail Blazer",
+    brand: "Merrell",
+    price: 139.99,
+    image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=300&fit=crop",
+    category: "Hiking",
+    rating: 4.9,
+    reviews: 312,
+    colors: ["Brown", "Green", "Gray"],
+    sizes: ["7", "8", "9", "10", "11", "12", "13"],
+    description: "Rugged hiking boots built for adventure and extreme conditions.",
+    features: ["Waterproof membrane", "Vibram outsole", "Ankle support"]
+  },
+  {
+    id: 5,
+    name: "City Runner",
+    brand: "New Balance",
+    price: 109.99,
+    image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=300&fit=crop",
+    category: "Running",
+    rating: 4.5,
+    reviews: 127,
+    colors: ["Blue", "Black", "White"],
+    sizes: ["7", "8", "9", "10", "11", "12"],
+    description: "Urban running shoes with superior comfort and performance.",
+    features: ["Fresh Foam midsole", "Engineered mesh", "Data-driven design"]
+  },
+  {
+    id: 6,
+    name: "Classic Leather",
+    brand: "Reebok",
+    price: 79.99,
+    originalPrice: 99.99,
+    image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=400&h=300&fit=crop",
+    category: "Casual",
+    rating: 4.4,
+    reviews: 78,
+    colors: ["White", "Black", "Brown"],
+    sizes: ["6", "7", "8", "9", "10", "11"],
+    description: "Timeless leather sneakers that never go out of style.",
+    features: ["Premium leather", "Classic silhouette", "Comfortable fit"]
+  }
+];
